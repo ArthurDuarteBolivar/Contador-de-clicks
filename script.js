@@ -14,9 +14,7 @@ function decrement(){
     alert("Voce chegou ate -10");
 }
 }
-<center><div style="color:#000000; font-size: 85px; font-weight: normal" id="dday"></div></center>
 
-<script> 
 
  // Set the date we're counting down to var countDownDate = new Date("April 25, 2023 12:00:00").getTime();
  // Update the count down every 1 second var x = setInterval(function() { // Get todays date and time var now = new Date().getTime();
@@ -27,7 +25,6 @@ function decrement(){
  // Display the result in the element with id="demo" document.getElementById("dday").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
  // If the count down is finished, write some text if (distance < 0) { clearInterval(x); document.getElementById("dday").innerHTML = "SITE NA TEIA"; } }, 1000);
 
-</script>
 
 
 
