@@ -3,14 +3,18 @@ var currentNumber = 0
 function increment(){
     currentNumber = currentNumber + 1;
     currentNumberWrapper.innerHTML = currentNumber;
+    if (currentNumber == 10){
+    alert("Voce chegou ate 10");
+}
 }
 function decrement(){
     currentNumber = currentNumber - 1;
     currentNumberWrapper.innerHTML = currentNumber;
+    if (currentNumber == -10){
+    alert("Voce chegou ate -10");
+}
 }
 
-if (currentNumber > 10){
-    alert("Voce chegou ate 10");
-}
+
 
 
