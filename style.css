@@ -1,0 +1,30 @@
+body{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    background: lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+#currentNumber{
+    font-size: 50px;
+    padding: 20px;
+}
+.adicionar{
+    background: rgb(255, 162, 128);
+    width: 100px;
+    height: 100px;
+    border-radius: 47%;
+    border: 1px  solid orangered;
+}
+.subtrair{
+    background: blanchedalmond;
+    width: 100px;
+    height: 100px;
+    border-radius: 47%;
+    border: 1px  solid white;
+    
+}
